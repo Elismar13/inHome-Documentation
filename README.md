@@ -51,9 +51,9 @@ This project was developed with the following technologies:
 
 ## :wrench: How to use
 
-#### The API are divided in two entities: 
+The API are divided in two entities: 
 
-###### Client
+#### Client
 - List user data:
 > - query params: id=USER_NAME<br>
 `GET https://inhome-backend.herokuapp.com/users/list?id=USER_NAME`
@@ -72,7 +72,7 @@ example:
 `POST https://inhome-backend.herokuapp.com/users`
 
 
-###### Device
+#### Device
 - Show user devices:<br>
 > `GET https://inhome-backend.herokuapp.com/devices`
 
