@@ -37,10 +37,6 @@
 
 inHome is a project that allow users to control thermal confort equipaments.
 
-<h1 align="center">
-    <img alt="Login-Page" title="Login-Page" src=".github/preview.jpg" width="500px" />
-</h1>
-
 
 ## :rocket: Technologies
 
