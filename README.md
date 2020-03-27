@@ -56,7 +56,7 @@ This project was developed with the following technologies:
 ###### Client
 - List user data:
 > - query params: id=USER_NAME
-> `GET https://inhome-backend.herokuapp.com/users/list?id=USER_NAME`
+`GET https://inhome-backend.herokuapp.com/users/list?id=USER_NAME`
 
 - Logon in the application: 
 > - body: JSON Object with "Username" and "Password" atributes.
