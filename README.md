@@ -55,32 +55,32 @@ This project was developed with the following technologies:
 
 ###### Client
 - List user data:
-> - query params: id=USER_NAME
+> - query params: id=USER_NAME<br>
 `GET https://inhome-backend.herokuapp.com/users/list?id=USER_NAME`
 
 - Logon in the application: 
-> - body: JSON Object with "Username" and "Password" atributes.
+> - body: JSON Object with "Username" and "Password" atributes.<br>
 example: 
 `{
 	"Username": "USERNAME",
 	"Password": "123456"
-}`
+}`<br>
 `GET https://inhome-backend.herokuapp.com/users`
 
 - Create new user: 
-> - body: JSON Object with "Username", "Password" and "ProfileImage" atributes.
+> - body: JSON Object with "Username", "Password" and "ProfileImage" atributes.<br>
 `POST https://inhome-backend.herokuapp.com/users`
 
 
 ###### Device
-- Show user devices:
+- Show user devices:<br>
 > `GET https://inhome-backend.herokuapp.com/devices`
 
 - Create a new device for user:
-> - body: JSON Object with "DeviceID", "DeviceName", "ambient", "latitude" and "longitude" atributes.
+> - body: JSON Object with "DeviceID", "DeviceName", "ambient", "latitude" and "longitude" atributes.<br>
 > `POST https://inhome-backend.herokuapp.com/devices`
 
--Update device data:
+-Update device data:<br>
 * in development *
 
 
