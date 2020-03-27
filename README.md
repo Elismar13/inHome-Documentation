@@ -33,6 +33,10 @@
   <a href="#memo-license">License</a>
 </p>
 
+<p aligh="center">
+	inHome API are available in: <a href="https://inhome-backend.herokuapp.com">https://inhome-backend.herokuapp.com</a>
+</p>
+
 ## 💻 Project
 
 inHome is a project that allow users to control thermal confort equipaments.
@@ -45,8 +49,39 @@ This project was developed with the following technologies:
 - [Node.js](https://nodejs.org/en/) 
 
 
-## 🔖 Layout
+## :wrench: How to use
 
+#### The API are divided in two entities: 
+
+###### Client
+- List user data:
+> - query params: id=USER_NAME
+> `GET https://inhome-backend.herokuapp.com/users/list?id=USER_NAME`
+
+- Logon in the application: 
+> - body: JSON Object with "Username" and "Password" atributes.
+example: 
+`{
+	"Username": "USERNAME",
+	"Password": "123456"
+}`
+`GET https://inhome-backend.herokuapp.com/users`
+
+- Create new user: 
+> - body: JSON Object with "Username", "Password" and "ProfileImage" atributes.
+`POST https://inhome-backend.herokuapp.com/users`
+
+
+###### Device
+- Show user devices:
+> `GET https://inhome-backend.herokuapp.com/devices`
+
+- Create a new device for user:
+> - body: JSON Object with "DeviceID", "DeviceName", "ambient", "latitude" and "longitude" atributes.
+> `POST https://inhome-backend.herokuapp.com/devices`
+
+-Update device data:
+* in development *
 
 
 ## 🤔 How to contribute
