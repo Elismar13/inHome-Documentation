@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="inHome" title="#inHome" src=".assets/inHome_logo.png" width="250px" />
+    <img alt="inHome" title="#inHome" src="./assets/inHome_logo.png" width="250px" />
 </h1>
 
 <h4 align="center"> 
