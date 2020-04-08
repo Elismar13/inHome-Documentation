@@ -62,13 +62,19 @@ The API are divided in two entities:
 > - body: JSON Object with "Username" and "Password" atributes.<br>
 example: 
 `{
-	"Username": "USERNAME",
-	"Password": "123456"
+	Username: "USERNAME",
+	Password: "123456"
 }`<br>
 `GET https://inhome-backend.herokuapp.com/users`
 
 - Create new user: 
 > - body: JSON Object with "Username", "Password" and "ProfileImage" atributes.<br>
+example: 
+`{
+	Username: "USERNAME",
+	Password: "123456",
+	ProfileImage: "www.minhafoto.com/minhafoto.png"
+}`<br>
 `POST https://inhome-backend.herokuapp.com/users`
 
 
