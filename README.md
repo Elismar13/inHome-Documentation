@@ -14,11 +14,11 @@
     <img alt="Made by Elismar13" src="https://img.shields.io/badge/made%20by-Elismar13-%2304D361">
   </a>
 
-  <a href="https://github.com/DanielObara/inHome-Documentation/commits/master">
+  <a href="https://github.com/Elismar13/inHome-Documentation/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Elismar13/inHome-Documentation">
   </a>
 
-  <a href="https://github.com/DanielObara/inHome-Documentation/issues">
+  <a href="https://github.com/Elismar13/inHome-Documentation/issues">
     <img alt="Repository issues" src="https://img.shields.io/github/issues/Elismar13/inHome-Documentation">
   </a>
 <a aria-label="In progress" href="">
