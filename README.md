@@ -6,7 +6,7 @@
 	:construction: 🚀 inHome - in progress :construction:
 </h4>
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Elismar13/SemanaOmnistack11?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Elismar13/inHome-Documentation?color=%2304D361">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/Elismar13/inHome-Documentation">
 	
@@ -39,7 +39,7 @@
 
 ## 💻 Project
 
-inHome is a project that allow users to control thermal confort equipaments.
+inHome is a project that allow users to control thermal confort equipaments by Internet of Things.
 
 
 ## :rocket: Technologies
@@ -60,7 +60,8 @@ The API are divided in two entities:
 
 - Logon in the application: 
 > - body: JSON Object with "Username" and "Password" atributes.<br>
-example: 
+> example:
+
 `{
 	Username: "USERNAME",
 	Password: "123456"
