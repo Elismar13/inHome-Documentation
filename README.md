@@ -28,7 +28,7 @@
 <p align="center">
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-use">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
@@ -39,7 +39,7 @@
 
 ## 💻 Project
 
-inHome is a project that allow users to control thermal confort equipaments by Internet of Things.
+inHome is a project that allow users to control thermal confort equipaments by Internet of Things. You can use your computer, smartphone, TV, or something else that has an internet connection to control your equipment.
 
 
 ## :rocket: Technologies
