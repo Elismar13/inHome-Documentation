@@ -63,29 +63,37 @@ The API are divided in two entities:
 > example:
 
 `{
+
 	Username: "USERNAME",
+	
 	Password: "123456"
-}`<br>
+	
+}`
 `GET https://inhome-backend.herokuapp.com/users`
 
 - Create new user: 
 > - body: JSON Object with "Username", "Password" and "ProfileImage" atributes.<br>
 example: 
 `{
+
 	Username: "USERNAME",
+	
 	Password: "123456",
+	
 	ProfileImage: "www.minhafoto.com/minhafoto.png"
+	
 }`<br>
 `POST https://inhome-backend.herokuapp.com/users`
 
 
 #### Device
 - Show user devices:<br>
-> `GET https://inhome-backend.herokuapp.com/devices`
+
+	> `GET https://inhome-backend.herokuapp.com/devices`
 
 - Create a new device for user:
 > - body: JSON Object with "DeviceID", "DeviceName", "ambient", "latitude" and "longitude" atributes.<br>
-> `POST https://inhome-backend.herokuapp.com/devices`
+	> `POST https://inhome-backend.herokuapp.com/devices`
 
 -Update device data:<br>
 * in development *
